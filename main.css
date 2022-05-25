@@ -21,6 +21,30 @@ canvas {
     height: 100%;
 }
 
+#score {
+    font-size: 40px;
+    color: white;
+	position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+#countdown {
+	position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
 /* p {
     display: inline-flex;
     align-items: center;
@@ -42,8 +66,8 @@ h2 {
 
 #blocker {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 180px;
+    right: 380px;
     width: 50%;
     height: 50%;
     pointer-events: auto;
